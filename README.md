@@ -10,7 +10,7 @@ Ce projet présente une interface graphique développée avec **LVGL** (Light an
 - Affichage d’une interface utilisateur moderne avec **LVGL**
 - Support de l’écran **TFT 7” avec contrôleur ILI9488 (SPI)**
 - Intégration d’un écran tactile **XPT2046**
-- Contrôle de LEDs (rouge, bleu, IR) via boutons
+- Contrôle de LEDs via boutons
 - Commandes via Bluetooth BLE (ArduinoBLE)
 - Lecture et affichage du phototype et du soin sélectionné
 - Multilingue : Français, Anglais, Espagnol, Allemand (extensible)
