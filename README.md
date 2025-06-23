@@ -63,13 +63,10 @@ cd IHM_LVGL
 4. Configurer le fichier `config.h` selon votre matériel (pins, type d’écran).
 5. Compiler et téléverser sur l’ESP32.
 
-## Contribuer
-
-Les contributions sont les bienvenues. Veuillez soumettre des issues ou des pull requests via GitHub.
-
 ## 🤝 Contributeurs
 
 - 👨‍💻 **Adriel Tatchum Simo** – Développement, architecture logicielle, interface
+- Les contributions sont les bienvenues. Veuillez soumettre des issues ou des pull requests via GitHub.
 
 ## Licence
 
