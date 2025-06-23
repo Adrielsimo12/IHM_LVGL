@@ -1,7 +1,4 @@
 
-### 📄 `README.md`
-
-```markdown
 # 🖥️ IHM_LVGL – Interface Homme-Machine avec LVGL et ESP32
 
 Ce projet présente une interface graphique développée avec **LVGL** (Light and Versatile Graphics Library) pour un écran **TFT Waveshare 7 pouces** piloté par un **ESP32-S3**. Il s'inscrit dans le cadre d'une solution de contrôle pour dispositifs de soins lumineux (LEDs, IR, etc.).
@@ -29,47 +26,12 @@ Ce projet présente une interface graphique développée avec **LVGL** (Light an
 - 📡 **Bluetooth BLE**
 - 📁 **I2C pour communication inter-ESP**
 
----
-
-## 📂 Structure du projet
-
-```
-
-📁 IHM\_LVGL/
-├── ui/                    # Fichiers liés à l’interface LVGL
-├── Roboto\_Slab/           # Polices utilisées
-├── Boxlight/              # Données spécifiques à un soin
-├── config.png             #  écran
-└── ...
-
-```
-
----
-
-## 🔧 Installation
-
-1. Installer les bibliothèques nécessaires :
-   - `lvgl`
-   - `TFT_eSPI` (configuré pour ILI9488)
-   - `XPT2046_Touchscreen`
-   - `ArduinoBLE`
-2. Sélectionner la carte **ESP32-S3** dans l’IDE Arduino
-3. Compiler et flasher le fichier `code_dispositifV4.ino`
-
----
-
 ## 🌐 Langues supportées
 
 - 🇫🇷 Français
 - 🇬🇧 English
 - 🇪🇸 Español
 - 🇩🇪 Deutsch
-
----
-
-## 📸 Aperçu
-
-![Interface Screenshot](config.png)
 
 ---
 
@@ -81,14 +43,37 @@ Ce projet présente une interface graphique développée avec **LVGL** (Light an
 
 ---
 
+## Prérequis
+
+* ESP32 (idéalement modèle ESP32-S3)
+* Bibliothèques Arduino LVGL, TFT\_eSPI, Bluetooth (ArduinoBLE)
+* Outils de compilation Arduino IDE ou PlatformIO
+
+## Installation
+
+1. Cloner le dépôt :
+
+```bash
+git clone https://github.com/Adrielsimo12/IHM_LVGL.git
+cd IHM_LVGL
+```
+
+2. Ouvrir le projet dans Arduino IDE ou PlatformIO.
+3. Installer les dépendances nécessaires via le gestionnaire de bibliothèques.
+4. Configurer le fichier `config.h` selon votre matériel (pins, type d’écran).
+5. Compiler et téléverser sur l’ESP32.
+
+## Contribuer
+
+Les contributions sont les bienvenues. Veuillez soumettre des issues ou des pull requests via GitHub.
+
 ## 🤝 Contributeurs
 
-- 👨‍💻 **Adrien Tatchum Simo** – Développement, architecture logicielle, interface
+- 👨‍💻 **Adriel Tatchum Simo** – Développement, architecture logicielle, interface
 
----
+## Licence
 
-## 📜 Licence
+Ce projet est sous licence MIT.
 
-Ce projet est sous licence **MIT** – voir le fichier [LICENSE](LICENSE) pour plus d’informations.
 
 
